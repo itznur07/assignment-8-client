@@ -1,4 +1,5 @@
 import CaruselBanner from "@/components/Home/CaruselBanner";
+import FlashSale from "@/components/Home/FlashSale";
 import Link from "next/link";
 
 export default function Home() {
@@ -29,6 +30,10 @@ export default function Home() {
       {/* Carusel slider */}
       <section className='mb-12'>
         <CaruselBanner />
+      </section>
+      {/* Flash Sale */}
+      <section className='mt-16'>
+        <FlashSale />
       </section>
     </div>
   );

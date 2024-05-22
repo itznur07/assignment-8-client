@@ -3,9 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
-const CardComp: React.FC<{ item: any }> = ({ item }) => {
+const CardComp: React.FC<{ item: any; flashsale: boolean }> = ({
+  item,
+  flashsale,
+}) => {
   return (
-    <Card className='max-w-[400px] h-[450px]'>
+    <Card className={`max-w-[400px] h-[${flashsale ? "300px" : "450px"}]`}>
       <div className='relative'>
         <Image
           alt='Banner Image'

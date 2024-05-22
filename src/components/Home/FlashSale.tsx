@@ -1,15 +1,17 @@
 "use client";
+import CardComp from "@/shared/Card";
+import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { Button } from "../ui/button";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import CardComp from "@/shared/Card";
-import { useState } from "react";
+} from "../ui/carousel";
 
-const CaruselBanner = () => {
+const FlashSale = () => {
   const [bannerData] = useState([
     {
       id: 1,
@@ -59,31 +61,44 @@ const CaruselBanner = () => {
   ]);
 
   return (
-    <div>
-      {/* Slider */}
-      <section className='flex items-center justify-center pt-14'>
-        <Carousel
-          opts={{
-            align: "start",
-          }}
-          className='w-[1100px]'
-        >
-          <CarouselContent>
-            {bannerData?.map((item) => (
-              <CarouselItem
-                key={item.id}
-                className=' md:basis-1/2 lg:basis-1/3'
-              >
-                <CardComp flashsale={false} item={item} />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
-      </section>
+    <div className='container'>
+      {/* section heading */}
+      <div className='flex items-center justify-between'>
+        <h1 className='text-3xl font-bold'>Flash Sale</h1>
+        <Button className='rounded-full'>
+          View All{" "}
+          <span>
+            <ArrowRight />
+          </span>
+        </Button>
+      </div>
+      {/* Card Carusel slider*/}
+      <div>
+        {/* Slider */}
+        <section className='flex items-center justify-center pt-14'>
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className='w-full'
+          >
+            <CarouselContent>
+              {bannerData?.map((item) => (
+                <CarouselItem
+                  key={item.id}
+                  className=' md:basis-1/2 lg:basis-1/4'
+                >
+                  <CardComp flashsale={true} item={item} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </section>
+      </div>
     </div>
   );
 };
 
-export default CaruselBanner;
+export default FlashSale;
