@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/carousel";
 import CardComp from "@/shared/Card";
 import { useState } from "react";
-
 const CaruselBanner = () => {
   const [bannerData] = useState([
     {
@@ -65,6 +64,7 @@ const CaruselBanner = () => {
         <Carousel
           opts={{
             align: "start",
+            loop: true,
           }}
           className='w-[1100px]'
         >
