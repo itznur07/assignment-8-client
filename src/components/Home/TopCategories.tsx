@@ -1,3 +1,6 @@
+import { ArrowRight } from "lucide-react";
+import { Button } from "../ui/button";
+
 const TopCategories = () => {
   return (
     <div>
@@ -75,6 +78,14 @@ const TopCategories = () => {
           </div>
         </div>
       </section>
+      <div className='flex items-center justify-center'>
+        <Button className='rounded-full mt-2'>
+          View All
+          <span className='ml-2'>
+            <ArrowRight />
+          </span>
+        </Button>
+      </div>
     </div>
   );
 };
