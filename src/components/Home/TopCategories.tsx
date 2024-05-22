@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import { Button } from "../ui/button";
 
 const TopCategories = () => {
@@ -16,10 +17,11 @@ const TopCategories = () => {
           </div>
           <div className='grid gap-6 md:grid-cols-3 mt-10'>
             <div className='group relative overflow-hidden rounded-lg'>
-              <img
-                alt='Category Image'
-                className='w-full object-cover transition-all duration-300 group-hover:scale-105'
+              <Image
                 src='https://images.unsplash.com/photo-1580256081112-e49377338b7f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                alt='Category Image'
+                className='object-cover transition-all duration-300 group-hover:scale-105'
+                height={800}
                 width={400}
               />
               <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent' />
@@ -31,11 +33,11 @@ const TopCategories = () => {
             </div>
             <div className='grid gap-6'>
               <div className='group relative overflow-hidden rounded-lg'>
-                <img
-                  alt='Category Image'
-                  className='w-full aspect-[4/3] object-cover transition-all duration-300 group-hover:scale-105'
-                  height={300}
+                <Image
                   src='https://images.unsplash.com/photo-1577369117918-7e3785e39cb7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNsZWFuaW5nJTIwc3VwcGxpZXN8ZW58MHx8MHx8fDA%3D'
+                  alt='Category Image'
+                  className=' aspect-[4/3] object-cover transition-all duration-300 group-hover:scale-105'
+                  height={300}
                   width={400}
                 />
                 <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent' />
@@ -46,11 +48,11 @@ const TopCategories = () => {
                 </div>
               </div>
               <div className='group relative overflow-hidden rounded-lg'>
-                <img
+                <Image
+                  src='https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNsZWFuaW5nJTIwc3VwcGxpZXN8ZW58MHx8MHx8fDA%3D'
                   alt='Category Image'
                   className='w-full aspect-[4/3] object-cover transition-all duration-300 group-hover:scale-105'
                   height={300}
-                  src='https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNsZWFuaW5nJTIwc3VwcGxpZXN8ZW58MHx8MHx8fDA%3D'
                   width={400}
                 />
                 <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent' />
@@ -62,10 +64,11 @@ const TopCategories = () => {
               </div>
             </div>
             <div className='group relative overflow-hidden rounded-lg'>
-              <img
-                alt='Category Image'
-                className='w-full  object-cover transition-all duration-300 group-hover:scale-105'
+              <Image
                 src='https://images.unsplash.com/photo-1556037843-347ddff9f4b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGNsZWFuaW5nJTIwc3VwcGxpZXN8ZW58MHx8MHx8fDA%3D'
+                alt='Category Image'
+                className='object-cover transition-all duration-300 group-hover:scale-105'
+                height={800}
                 width={400}
               />
               <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent' />
