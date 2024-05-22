@@ -18,7 +18,7 @@ const CaruselBanner = () => {
       discount_price: 9.99,
       discount_percentage: 23,
       image_url:
-        "https://img.freepik.com/free-vector/pack-cleaning-products_23-2148534087.jpg?t=st=1716369107~exp=1716372707~hmac=73ae4d87e7ebbf61a6b42a2159081e750efb583bcc95cf5c809f5d3ffd8b56d8&w=740",
+        "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const CaruselBanner = () => {
       discount_price: 19.99,
       discount_percentage: 20,
       image_url:
-        "https://img.freepik.com/free-vector/pack-cleaning-products_23-2148534087.jpg?t=st=1716369107~exp=1716372707~hmac=73ae4d87e7ebbf61a6b42a2159081e750efb583bcc95cf5c809f5d3ffd8b56d8&w=740",
+        "https://media.istockphoto.com/id/1454041049/photo/brushes-bottles-with-cleaning-liquids-sponges-rag-and-yellow-rubber-gloves-on-white.webp?b=1&s=170667a&w=0&k=20&c=p977j6vshjYvmVWT2xmVrgNFeWhuXvzT7FKm9rz8srY=",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const CaruselBanner = () => {
       discount_price: 12.99,
       discount_percentage: 19,
       image_url:
-        "https://img.freepik.com/free-vector/pack-cleaning-products_23-2148534087.jpg?t=st=1716369107~exp=1716372707~hmac=73ae4d87e7ebbf61a6b42a2159081e750efb583bcc95cf5c809f5d3ffd8b56d8&w=740",
+        "https://media.istockphoto.com/id/165835394/photo/cleaning-supplies.webp?b=1&s=170667a&w=0&k=20&c=ONkQQpLxlcjQ1-PieWIAJ7fKhZKKIUhU_7-dpYRptq8=",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const CaruselBanner = () => {
       discount_price: 24.99,
       discount_percentage: 17,
       image_url:
-        "https://img.freepik.com/free-vector/pack-cleaning-products_23-2148534087.jpg?t=st=1716369107~exp=1716372707~hmac=73ae4d87e7ebbf61a6b42a2159081e750efb583bcc95cf5c809f5d3ffd8b56d8&w=740",
+        "https://media.istockphoto.com/id/1432336822/photo/colorful-cleaning-products-and-tools-on-kitchen-counter.webp?b=1&s=170667a&w=0&k=20&c=mgCA8Vt0o-9aHT7EgDLE5SLJND9tElX6_nbycfiHQ5M=",
     },
     {
       id: 5,
@@ -54,7 +54,7 @@ const CaruselBanner = () => {
       discount_price: 8.99,
       discount_percentage: 18,
       image_url:
-        "https://img.freepik.com/free-vector/pack-cleaning-products_23-2148534087.jpg?t=st=1716369107~exp=1716372707~hmac=73ae4d87e7ebbf61a6b42a2159081e750efb583bcc95cf5c809f5d3ffd8b56d8&w=740",
+        "https://images.unsplash.com/photo-1583947215259-38e31be8751f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ]);
 

@@ -5,13 +5,13 @@ import Image from "next/image";
 
 const CardComp: React.FC<{ item: any }> = ({ item }) => {
   return (
-    <Card className='max-w-[400px] h-[500px]'>
+    <Card className='max-w-[400px] h-[450px]'>
       <div className='relative'>
         <Image
           alt='Banner Image'
-          className='h-[300px] w-full object-fill'
-          width={100}
-          height={300}
+          className='object-fill'
+          width={500}
+          height={600}
           src={item.image_url}
         />
         <div className='absolute top-4 left-4'>
@@ -32,7 +32,7 @@ const CardComp: React.FC<{ item: any }> = ({ item }) => {
           <span className='text-2xl font-bold text-primary'>$44.99</span>
         </div>
         <Button className='w-full' size='lg' variant='default'>
-          Add to Cart
+          View Details
         </Button>
       </div>
     </Card>
