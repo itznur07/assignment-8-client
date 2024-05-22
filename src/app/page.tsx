@@ -1,5 +1,6 @@
 import CaruselBanner from "@/components/Home/CaruselBanner";
 import FlashSale from "@/components/Home/FlashSale";
+import MostPopular from "@/components/Home/MostPopular";
 import TopCategories from "@/components/Home/TopCategories";
 import Link from "next/link";
 
@@ -41,6 +42,10 @@ export default function Home() {
       {/* Top Categories */}
       <section className='mt-24'>
         <TopCategories />
+      </section>
+      {/* Most Popular Products */}
+      <section className='mt-24'>
+        <MostPopular />
       </section>
     </div>
   );
