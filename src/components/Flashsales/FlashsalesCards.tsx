@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 
-const ProductsCards = () => {
+const FlashsalesCard = () => {
   const [bannerData] = useState([
     {
       id: 1,
@@ -61,7 +61,7 @@ const ProductsCards = () => {
           </div>
         ))}
       </div>
-      <div className='mt-5  flex items-center justify-center mb-5'>
+      <div className='mt-5 flex items-center justify-center mb-5'>
         <Button className='rounded-full'>
           Load more
           <span>
@@ -73,4 +73,4 @@ const ProductsCards = () => {
   );
 };
 
-export default ProductsCards;
+export default FlashsalesCard;
