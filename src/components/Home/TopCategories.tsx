@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
@@ -85,7 +85,7 @@ const TopCategories = () => {
         <Button className='rounded-full mt-2'>
           View All
           <span className='ml-2'>
-            <ArrowRight />
+            <ChevronRight />
           </span>
         </Button>
       </div>

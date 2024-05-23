@@ -1,6 +1,6 @@
 "use client";
 import CardComp from "@/shared/Card";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
 
@@ -88,7 +88,7 @@ const MostPopular = () => {
         <Button className='rounded-full'>
           View All
           <span>
-            <ArrowRight />
+            <ChevronRight />
           </span>
         </Button>
       </div>
