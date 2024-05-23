@@ -25,7 +25,7 @@ export default function Navbar() {
         </Link>
         <Link
           className='text-md font-medium transition-colors hover:text-gray-900 dark:hover:text-gray-50'
-          href='#'
+          href='/products'
         >
           Products
         </Link>

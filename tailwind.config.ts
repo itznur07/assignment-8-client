@@ -74,7 +74,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("embla-carousel-autoplay")],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
 export default config;
