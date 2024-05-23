@@ -8,6 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Image from "next/image";
 
 export default function ProductDetails() {
   return (
@@ -16,49 +17,49 @@ export default function ProductDetails() {
         <div className='grid md:grid-cols-5 gap-4'>
           <div className='hidden md:flex flex-col gap-4'>
             <button className='border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50'>
-              <img
+              <Image
+                src='/placeholder.svg'
                 alt='Product Image Thumbnail'
                 className='aspect-square object-cover'
-                height='100'
-                src='/placeholder.svg'
-                width='100'
+                height={100}
+                width={100}
               />
             </button>
             <button className='border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50'>
-              <img
+              <Image
+                src='/placeholder.svg'
                 alt='Product Image Thumbnail'
                 className='aspect-square object-cover'
-                height='100'
-                src='/placeholder.svg'
-                width='100'
+                height={100}
+                width={100}
               />
             </button>
             <button className='border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50'>
-              <img
+              <Image
+                src='/placeholder.svg'
                 alt='Product Image Thumbnail'
                 className='aspect-square object-cover'
-                height='100'
-                src='/placeholder.svg'
-                width='100'
+                height={100}
+                width={100}
               />
             </button>
             <button className='border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50'>
-              <img
+              <Image
+                src='/placeholder.svg'
                 alt='Product Image Thumbnail'
                 className='aspect-square object-cover'
-                height='100'
-                src='/placeholder.svg'
-                width='100'
+                height={100}
+                width={100}
               />
             </button>
           </div>
           <div className='md:col-span-4'>
-            <img
-              alt='Product Image'
-              className='aspect-square object-cover border border-gray-200 w-full rounded-lg overflow-hidden dark:border-gray-800'
-              height='600'
+            <Image
               src='/placeholder.svg'
-              width='600'
+              alt='Product Image Thumbnail'
+              className='aspect-square object-cover'
+              height={100}
+              width={100}
             />
           </div>
         </div>
@@ -138,7 +139,7 @@ export default function ProductDetails() {
   );
 }
 
-function StarIcon(props) {
+function StarIcon(props: any) {
   return (
     <svg
       {...props}
